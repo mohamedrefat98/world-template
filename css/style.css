@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    transition-duration: 0.5s ;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+input:focus{
+    outline: 0;
+}
+
+/* general styles */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.clear{
+    clear: both;
+}
+.white-text{
+    color: white;
+}
+.gray-text{
+    color: #b3aeaa;
+}
+.black-text{
+    color:black ;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.644);
+}
+.border-botom{
+    border-bottom: 1.5px solid #e7e7e7;
+}
+.display{
+    display: inline-block;
+}
+.display-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items{
+    align-items: center;
+}
+.column{
+    flex-direction: column;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.shadow{
+    box-shadow: 0 0 10px 0 rgb(202, 202, 202);
+}
+.card-links{
+    font-size: 12px;
+}
+
+/* cards style */
+/* 1- big card */
+.big-card{
+    width: 48%;
+    height: 400px;
+    position: relative;
+}
+.big-card img{
+    width: 100%;
+    height: 43%;
+}
+.big-card h3{
+    margin: 7% 0 ;
+}
+.big-card-info{
+    padding: 0px 8%;
+}
+.big-card .card-links{
+    margin-top: 9%;
+}
+.card-links a:hover{
+    color: blue;
+}
+.travel{
+    border: 0;
+    background-color: white;
+    color: blue;
+    position: absolute;
+    top: 18px;
+    font-size: 12px;
+    padding: 0.5% 2%;
+}
+.travel:hover{
+    color: white;
+    background-color: blue;
+}
+/* 2-small card */
+.small-card{
+    height: 93px;
+    width: 100%;   
+}
+.small-card img{
+    width: 30%;
+    height: 100%;
+    vertical-align: middle;
+}
+.small-card div{
+    width: 68%;
+    vertical-align: middle;
+    padding:0% 4%;
+}
+.small-card .card-links{
+    margin-top: 8%;
+}
+/* 3-smallest card */
+.smallest-card{
+    height: 72px;
+    width: 90%;
+    margin: 1% 0; 
+}
+.smallest-card img{
+    width: 30%;
+    height: 100%;
+    vertical-align: middle;
+}
+.smallest-card div{
+    width: 68%;
+    vertical-align: middle;
+    padding:0% 4%;
+}
+/* main-style */
+#main{
+    height: 85vh;
+    background-image: url(https://preview.colorlib.com/theme/world/img/blog-img/xbg2.jpg.pagespeed.ic.QoUnFCtMkz.webp);
+    background-attachment: fixed;
+    background-size: 100% 115%;
+    
+}
+nav{
+    border-bottom: 2px solid white;
+    padding-bottom: 0.5%;
+    padding-top: 2%;
+}
+h1{
+    font-size: 32px;
+    font-weight: 500;
+}
+nav ul{
+    width: 46%;
+}
+nav ul i {
+    font-size: 28px;
+}
+nav ul li a:hover{
+    color: white;
+}
+.main-nums{
+    height: 70vh;
+    align-items: flex-end;
+}
+.main-num{
+    width: 30%;
+}
+.main-num p{
+    width: 70%;
+    vertical-align: middle;
+}
+.main-num .num{
+    vertical-align: middle;
+    font-size: 30px;
+    border: 4px solid #777777;
+    border-radius: 50%;
+    padding: 2% 5%;
+    margin-right: 6%;
+}
+
+#num1 {
+    border: 6px solid blue;
+    border-left:6px solid #777777 ;
+}
+/* about section */
+#pages{
+    padding: 3% 0;
+}
+/* left-aside */
+.left-aside{
+    width: 65%;
+}
+.links{
+    width: 100%;
+    text-transform: capitalize;
+    margin: 5% 0;
+}
+.links-list{
+    width: 73%;
+}
+.link:hover{
+    color: #000;
+}
+.link{
+    padding: 2.5% 0;
+}
+.link.black-text{
+    border-bottom: 2px solid blue;
+}
+
+.small-cards-container{
+    width: 48%;
+}
+
+
+
+.sliders a{
+    
+    display: inline-block;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #e7e7e7;
+    color: #e7e7e7;
+    text-align: center;
+    line-height: 40px;
+    margin: 0% 1%;
+}
+.sliders a:hover{
+    color: white;
+    background-color: blue;
+    border: 0;
+}
+.sliders{
+    margin: 5% 0;
+}
+
+.small-card1,.small-card2{
+    margin: 6px 0;
+}
+
+.small-container1 .small-card{
+ width: 48%;
+}
+
+/* right side */
+#pages .right-aside{
+    width: 32%;
+    margin-top: 3% ;
+    margin-bottom: 15%;
+    border-left: 1px solid #e7e7e7;
+}
+#pages .right-aside h3{
+    width: 100%;
+    text-transform: capitalize;
+    padding: 3.3% 8%;
+}
+.about-text{
+    font-size: 15px;
+    padding: 9%;
+}
+.smallest-container{
+    align-items: flex-end;
+    padding: 8% 0;
+}
+.connect{
+   
+    padding-left: 5%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+
+}
+.connect a{
+    display: inline-block;
+    border: 1px solid #e7e7e7;
+    color: #b3aeaa;
+    border-radius: 50%;
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0% 2%;
+    text-align: center;
+}
+.connect a:hover{
+    color: blue;
+}
+
+.space{
+    width: 100%;
+    padding-left: 8%;
+    margin: 10% 0;
+}
+.space-p{
+    padding-left: 8%;
+}
+
+
+
+/* life style */
+
+.photo-card{
+    width: 31.5%;
+    text-align: center;
+    background-image: url(../images/Things-never-knew-astronomy-e454e5d.jpg);
+    background-size: cover;
+
+}
+.photo-card .layer{
+    padding: 5%;
+}
+.photo-card .travel{
+    position: static;
+}
+.photo-card p{
+    font-size: 12px;
+}
+.photo-card h4{
+    margin: 8% 0;
+    line-height: 1.4;
+}
+
+/* video section styling */
+#video{
+    padding: 3% 0;
+}
+
+
+/* video left aside */
+.section-head{
+    padding-bottom: 1.4% ;
+}
+#video .left-aside .section-head{
+    margin: 5% 0;
+}
+.wide-card{
+    width: 100%;
+    margin-top: 10px;
+}
+.wide-card img{
+    width: 29%;
+    height: 100%;
+    vertical-align: middle;
+}
+.wide-card h3{
+    font-weight: 500;
+}
+.wide-info{
+    width: 65%;
+    vertical-align: middle;
+    padding: 0% 3%;
+}
+.wide-p{
+    margin: 2.5% 0;
+}
+
+/* video right aside */
+
+ .right-aside{
+    width: 32%;
+}
+
+#video .right-aside .section-head{
+    margin: 10% 0;
+    padding-bottom: 3%;
+}
+.right-aside .big-card{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.play{
+        display: inline-block;
+        position: absolute;
+        left: 44%;
+        top: 19%;
+        background-color: white;
+        color:#b3aeaa;
+        border-radius: 50%;
+        height: 35px;
+        width: 35px;
+        text-align: center;
+        line-height: 35px;
+}
+.play:hover{
+    color: blue;
+}
+.load{
+    display: block;
+    border: 1px solid #b3aeaa;
+    margin: 3.5% auto;
+    padding: 0.7% 2%;
+    background-color: white;
+    border-radius: 20px;
+}
+.load:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+/* footer styling */
+footer{
+    background: #161616;
+    padding: 4% 0;
+}
+footer h3{
+   margin-bottom: 8%;
+}
+footer p ,footer a{
+    font-size: 14px;
+    line-height: 1.5;
+}
+footer span:hover{
+    color: blue;
+}
+footer .copyright,footer ul ,footer .form, footer ul li{
+    width: 30%;
+}
+footer a:hover{
+    color: blue;
+}
+
+footer .form input{
+    border: 0;
+    border-bottom: 1px solid #777777;
+    background-color: transparent;
+    padding-bottom: 3%;
+    padding-left: 5px;
+    font-size: 16px;
+}
+footer .form input:focus{
+    outline: 0;
+    background-color: transparent;
+   
+}
+footer .form{
+    position: relative;
+}
+footer button{
+    position: absolute;
+    right: 9px;
+    bottom: 5px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 0;
+}
+
+ button:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* icon styling */
+.to-main{
+    position: fixed;
+    right: 85px;
+    bottom: 60px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(43, 43, 43);
+    text-align: center;
+    line-height: 50px;
+    font-size: 23px;
+    border-radius: 50%;
+    color: white;
+}
+.to-main:hover{
+    background-color: rgb(0, 0, 185);
+}

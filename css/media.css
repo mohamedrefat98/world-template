@@ -1,0 +1,463 @@
+@media only screen and (min-width: 992px) and (max-width:1350px){
+    .container{
+        width: 90%;
+    }
+    h1{
+        font-size: 23px;
+    }
+    nav ul{
+        width: 54%;
+    }
+    ul{
+        font-size: 14px;
+    }
+    h3{
+        font-size: 18px;
+    }
+
+    .big-card h3 {
+        font-size: 16px;
+    }
+    .big-card h3+p{
+        font-size: 13px;
+    }
+    .connect a{
+        margin: 0 1%;
+    }
+    .photo-card h4 {
+
+        line-height: 1.2;
+        font-size: 15px;
+    }
+    .wide-card {
+        height: 21.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:992px){
+
+    .container{
+        width: 90%;
+    }
+    nav{
+        padding-top: 4%;
+        padding-bottom: 1%;
+    }
+    h1{
+        font-size: 23px;
+    }
+    ul{
+        font-size: 14px;
+    }
+    nav ul {
+        width: 58%;
+    }
+    .main-num .num {
+        font-size: 28px;
+        margin-right: 4%;
+    }
+    #pages .container{
+        flex-direction: column;
+    }
+    #pages .left-aside{
+        width: 100%;
+    }
+    #pages .right-aside{
+        width: 65%;
+        margin: auto;
+    }
+    .connect a{
+        margin: 0 3%;
+    }
+    .photo-card{
+        width: 48%;
+    }
+     .photo-card-3{
+        margin: 3% auto;
+     }
+     #video .container{
+         flex-direction: column;
+     }
+
+     #video .left-aside{
+        width: 100%;
+     }
+     #video .right-aside{
+        width: 100%;
+     }
+     .video-card{
+         height: 500px;
+     }
+     .video-card img{
+         height: 65%;
+     }
+     .video-card .card-info{
+         padding: 0 5%;
+     }
+     .video-card h3{
+         margin: 3% 0;
+     }
+     .video-card .play{
+        left: 47%;
+         top: 28%;
+     }
+     .video-card .card-links{
+         margin-top: 6%;
+     }
+}
+
+@media only screen and (min-width: 576px) and (max-width:768px){
+    .container{
+        width: 90%;
+    }
+    .container{
+        width: 90%;
+    }
+    .nav{
+        padding-top: 5%;
+        padding-bottom: 1%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    h1{
+        font-size: 21px;
+    }
+    ul{
+        font-size: 14px;
+    }
+    nav ul {
+        width: 100%;
+    }
+    .main-num{
+        width: 100%;
+    }
+    .main-num-1,.main-num-2{
+        display: none;
+    }
+    .main-num p {
+        width: 77%;
+        vertical-align: middle;
+    }
+    .main-num .num {
+        vertical-align: middle;
+        font-size: 30px;
+        border: 4px solid #777777;
+        border-radius: 50%;
+        padding: 1% 3%;
+        margin-right: 6%;
+    }
+    #pages .container{
+        flex-direction: column;
+    }
+    #pages .left-aside{
+        width: 100%;
+    }
+    .about-cards{
+        flex-direction: column;
+    }
+    .big-card {
+        width: 100%;
+        height: 430px;
+        margin-bottom: 5px;
+    }
+    
+    .big-card img {
+        width: 100%;
+        height: 56%;
+    }
+    .big-card-info {
+        padding: 0px 6%;
+    }
+    .big-card h3 {
+        margin: 4% 0;
+    }
+    .big-card .card-links {
+        margin-top: 6%;
+    }
+    .travel{
+        top: 6%;
+    }
+    .small-cards-container {
+        width: 100%;
+    }
+    .small-card {
+        height: 93px;
+        width: 100%;
+        margin-top: 6px;
+    }
+    h3{
+        font-size: 18px;
+    }
+
+    .small-container1 .small-card {
+        width: 100%;
+    }
+
+    #pages .right-aside{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 12%;
+    }
+
+    .connect a{
+        margin: 0 4%;
+    }
+    .photo-card{
+        width: 100%;
+    }
+     .photo-card-2{
+        margin: 7px 0;
+     }
+     .photo-card-3{
+        margin: 0;
+     }
+     #video .container{
+         flex-direction: column;
+     }
+     #video .left-aside{
+        width: 100%;
+     }
+     .wide-card {
+        height: 220px;
+    }
+    .wide-card img {
+        width: 47%;
+    }
+    .wide-info {
+        width: 49%;
+    }
+    .wide-card h3 {
+        font-size: 18px;
+    }
+    .wide-p {
+        margin: 2.5% 0;
+        font-size: 14px;
+    }
+
+     #video .right-aside{
+        width: 100%;
+     }
+     .video-card{
+         height: 500px;
+     }
+     .video-card img{
+         height: 65%;
+     }
+     .video-card .card-info{
+         padding: 0 5%;
+     }
+     .video-card h3{
+         margin: 3% 0;
+     }
+     .video-card .play{
+        left: 47%;
+         top: 28%;
+     }
+     .video-card .card-links{
+         margin-top: 6%;
+     }
+     footer{
+         padding: 9% 0;
+     }
+     footer .container{
+         flex-direction: column;
+     }
+     footer .copyright,footer ul ,footer .form{
+         width: 100%;
+     }
+     footer ul {
+         margin: 10% 0;
+     }
+     footer h3 {
+        margin-bottom: 3%;
+    }
+     .to-main { 
+        right: 30px;
+        bottom: 50px;
+      
+    }
+}
+@media only screen and (min-width: 0px) and (max-width:576px){
+    .container{
+        width: 90%;
+    }
+   
+    .nav{
+        padding-top: 5%;
+        padding-bottom: 1%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    h1{
+        font-size: 21px;
+    }
+    ul{
+        font-size: 14px;
+    }
+    nav ul {
+        width: 100%;
+    }
+    ul li{
+        margin-top: 1%;
+        margin-right: 3%;
+    }
+    .main-num{
+        width: 100%;
+    }
+    .main-num-1,.main-num-2{
+        display: none;
+    }
+    .main-num p {
+        width: 77%;
+        vertical-align: middle;
+    }
+    .main-num .num {
+        vertical-align: middle;
+        font-size: 30px;
+        border: 4px solid #777777;
+        border-radius: 50%;
+        padding: 1% 3%;
+        margin-right: 6%;
+    }
+    #pages .container{
+        flex-direction: column;
+    }
+    #pages .left-aside{
+        width: 100%;
+    }
+    .about-cards{
+        flex-direction: column;
+    }
+    .big-card {
+        width: 100%;
+        height: 430px;
+        margin-bottom: 5px;
+    }
+    
+    .big-card img {
+        width: 100%;
+        height: 56%;
+    }
+    .big-card-info {
+        padding: 0px 6%;
+    }
+    .big-card h3 {
+        margin: 4% 0;
+    }
+    .big-card .card-links {
+        margin-top: 6%;
+    }
+    .travel{
+        top: 5%;
+        padding: 1% 3%;
+    }
+    .small-cards-container {
+        width: 100%;
+    }
+    .small-card {
+        height: 93px;
+        width: 100%;
+        margin-top: 6px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .small-container1 .small-card {
+        width: 100%;
+    }
+
+    #pages .right-aside{
+        width: 100%;
+        margin:10% auto;
+        margin-bottom: 12%;
+    }
+
+    .connect a{
+        margin: 0 2%;
+    }
+    .photo-card-2{
+        margin: 0;
+    }
+    .photo-card-3{
+       margin: 0;
+    }
+    .photo-card{
+        width: 100%;
+        margin: 4% 0;
+    }
+     
+     #video .container{
+         flex-direction: column;
+     }
+     #video .left-aside{
+        width: 100%;
+        margin: 15% 0;
+     }
+     .wide-card {
+        width: 100%;
+        height: 430px;
+        margin-bottom: 5px;
+    }
+    .wide-card img {
+        width: 100%;
+        height: 56%;
+    }
+    .wide-info {
+        padding: 0px 6%;
+        width: 100%;
+    }
+    .wide-card h3 {
+        margin: 4% 0;
+    }
+    .wide-p {
+        margin: 2.5% 0;
+        font-size: 14px;
+    }
+
+     #video .right-aside{
+        width: 100%;
+        margin: 15% 0;
+     }
+     .video-card{
+         height: 500px;
+     }
+     .video-card img{
+         height: 65%;
+     }
+     .video-card .card-info{
+         padding: 0 5%;
+     }
+     .video-card h3{
+         margin: 3% 0;
+     }
+     .video-card .play{
+        left: 47%;
+         top: 28%;
+     }
+     .video-card .card-links{
+         margin-top: 6%;
+     }
+     footer{
+         padding: 9% 0;
+     }
+     footer .container{
+         flex-direction: column;
+     }
+     footer .copyright,footer ul ,footer .form{
+         width: 100%;
+     }
+     footer ul {
+         margin: 10% 0;
+     }
+     footer h3 {
+        margin-bottom: 3%;
+    }
+     .to-main { 
+        right: 30px;
+        bottom: 50px;
+      
+    }
+}
